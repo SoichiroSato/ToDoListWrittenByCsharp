@@ -1,0 +1,42 @@
+﻿@charset "utf-8";																															
+
+	
+																															
+body {																															
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.class1{
+		width:1024px;
+		margin:auto;
+		background-color:#EDF7FF;
+		height: 190px;
+}																												
+.class2{
+		padding-top:5px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom:20px;
+		font-size:14px;
+		height: 180px;
+}					
+.class3{width:950px;
+		margin:auto;
+}
+.class4{
+		margin-top:12px;
+		padding-left:20px;
+}
+.class5{
+		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+		font-size:14px;
+		width: 1467px;
+}
+.class6{
+		margin-top:12px;
+}
+.spanclass1{
+			margin-left:900px;
+}
+.spanclass2{
+			margin-left:600px;
+}
