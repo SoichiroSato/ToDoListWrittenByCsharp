@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Text;
 using System.Configuration;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
-using TDL.App_Code;
+using TDL.Logic;
 
 namespace TDL
 {

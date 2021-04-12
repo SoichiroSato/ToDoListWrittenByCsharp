@@ -2,9 +2,9 @@
 using System.Data.SqlClient;
 using System.Text;
 using System.Configuration;
-using TDL.App_Code;
 
-namespace TDL.App_Code
+
+namespace TDL.Logic
 {
     public class LogicOfDetail
     {
