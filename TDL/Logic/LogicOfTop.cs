@@ -1,8 +1,8 @@
 ﻿using System.Text;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Data.Common;
-namespace TDL.App_Code
+
+namespace TDL.Logic
 {
     public class LogicOfTop
     {

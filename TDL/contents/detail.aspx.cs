@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.UI.WebControls;
-using TDL.App_Code;
+using TDL.Logic;
 
 
 namespace TDL

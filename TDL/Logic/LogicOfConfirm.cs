@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Configuration;
-using System.Linq;
 using System.Data.SqlClient;
 using System.Text;
-namespace TDL.App_Code
+
+namespace TDL.Logic
 {
     public class LogicOfConfirm
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace TDL.App_Code
+namespace TDL.Logic
 {
     public class Utilty
     {
