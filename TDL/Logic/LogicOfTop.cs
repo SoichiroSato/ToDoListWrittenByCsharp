@@ -1,12 +1,11 @@
 ﻿using System.Text;
-using System.Configuration;
 using System.Data.SqlClient;
 
 namespace TDL.Logic
 {
     public class LogicOfTop
     {
-        private static readonly string StrS = ConfigurationManager.ConnectionStrings["StrS"].ConnectionString;
+        
         public static SqlCommand BindSelectedData(SqlConnection cn ,string nichizi,string title,string genre,string status)
         {
             

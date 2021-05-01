@@ -17,15 +17,15 @@ namespace TDL
                     {
                         if (mode.Equals("Delete"))
                         {
-                            LogicOfConfirm LogicOfConfirm = new LogicOfConfirm();
-                            LogicOfConfirm.BindParameters(Request.QueryString["No"]);
-                            Title_t.Text = LogicOfConfirm.Title;
-                            contents.Text = LogicOfConfirm.Contents;
-                            status.Text = LogicOfConfirm.Status;
-                            Genre.Text = LogicOfConfirm.Genre;
-                            YEAR.Text = LogicOfConfirm.Nichizi.ToString("yyyy");
-                            Month.Text = LogicOfConfirm.Nichizi.ToString("MM");
-                            Day.Text = LogicOfConfirm.Nichizi.ToString("dd");
+                            LogicOfDetail LogicOfDetail = new LogicOfDetail();
+                            LogicOfDetail.BindParameters(Request.QueryString["No"]);
+                            Title_t.Text = LogicOfDetail.Title;
+                            contents.Text = LogicOfDetail.Contents;
+                            status.Text = LogicOfDetail.Status;
+                            Genre.Text = LogicOfDetail.Genre;
+                            YEAR.Text = LogicOfDetail.Nichizi.ToString("yyyy");
+                            Month.Text = LogicOfDetail.Nichizi.ToString("MM");
+                            Day.Text = LogicOfDetail.Nichizi.ToString("dd");
                             msg.Text = "下記内容を削除します。よろしければ「確定」ボタンを押してください。";
 
                         }
@@ -98,28 +98,28 @@ namespace TDL
                 };
                 if (status.Text.Equals("新規"))
                 {
-                    LogicOfConfirm.IntStatus = 0;
+                    LogicOfConfirm.Status = 0;
                 }
                 else if (status.Text.Equals("進行中"))
                 {
-                    LogicOfConfirm.IntStatus = 1;
+                    LogicOfConfirm.Status = 1;
                 }
                 else if (status.Text.Equals("完了"))
                 {
-                    LogicOfConfirm.IntStatus = 2;
+                    LogicOfConfirm.Status = 2;
                 }
                 else
                 {
-                    LogicOfConfirm.IntStatus = 3;
+                    LogicOfConfirm.Status = 3;
                 }
 
                 if (Genre.Text.Equals("仕事"))
                 {
-                    LogicOfConfirm.IntGenre = 0;
+                    LogicOfConfirm.Genre = 0;
                 }
                 else
                 {
-                    LogicOfConfirm.IntGenre = 1;
+                    LogicOfConfirm.Genre = 1;
                 }
                 if (Request.QueryString["mode"].Equals("Delete") || Request.QueryString["mode"].Equals("Update"))
                 {

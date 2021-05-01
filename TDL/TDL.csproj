@@ -46,6 +46,11 @@
     <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
       <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Interop.BASP21PROLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\ToDoListWriitenByCsharp\ToDoListWriitenByCsharp\bin\Interop.BASP21PROLib.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -118,8 +123,6 @@
     <Content Include="obj\Debug\TDL.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\TDL.dll" />
     <Content Include="obj\Debug\TDL.pdb" />
-    <Content Include="obj\Release\TDL.dll" />
-    <Content Include="obj\Release\TDL.pdb" />
     <Content Include="Web.config" />
     <Content Include="contents\Top.aspx" />
     <Content Include="contents\detail.aspx" />
@@ -177,19 +180,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_GlobalResources\" />
     <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
-  <ItemGroup>
-    <COMReference Include="BASP21PROLib">
-      <Guid>{547F2449-6F9D-4ED2-A050-87C33B81B6B7}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

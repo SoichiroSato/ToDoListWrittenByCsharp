@@ -112,8 +112,7 @@ namespace TDL
                     ck.Checked = true;
                     ck_flg = false;
                 }
-                string script = "setExclusiveRadioButton('RST.*[RadioButton_GroupName]', this)";
-                ck.Attributes.Add("onclick", script);
+                ck.Attributes.Add("onclick", "setExclusiveRadioButton('RST.*[RadioButton_GroupName]', this)");
             }
         }
 
